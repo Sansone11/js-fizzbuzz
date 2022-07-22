@@ -11,3 +11,23 @@
     --bg-fizz:#0CD6A1;
     --bg-fizzbuzz:#F0466F;
 }
+
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    
+}
+
+.griglia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.cell{
+    color: white;
+    padding: 20px;
+    background-color: aqua;
+    height: 80px;
+    aspect-ratio: 1;
+}
