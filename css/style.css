@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-color:#083B4C;
+    --bg-odds:#1389B2;
+    --bg-buzz:#FFD166;
+    --bg-fizz:#0CD6A1;
+    --bg-fizzbuzz:#F0466F;
+}
