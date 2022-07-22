@@ -31,3 +31,14 @@
     height: 80px;
     aspect-ratio: 1;
 }
+
+.fizz{
+    background-color: var(--bg-fizz);
+}
+.buzz{
+    background-color: var(--bg-buzz);
+}
+
+.fizzbuzz{
+    background-color: var(--bg-fizzbuzz);
+}

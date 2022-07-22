@@ -6,16 +6,19 @@ console.log('JS ok')
 // stampare buzz al posto del numero
 // e se i è multiplo di 3 e multiplo di 5
 // dai istruzione di stampare fizzbuzz al posto del numero
+const grigliaElement = document.querySelector('griglia');
+
 for (let i = 1; i <= 100; i++) {
     console.log(i)
     if (i % 3 === 0){
-        console.log('questo è un multiplo di 3')
+        console.log('fizz')
     }
     if (i % 5 === 0){
-        console.log('questo è un multiplo di 5')
+        console.log('buzz')
     }
     if (i % 3 === 0 && i % 5 === 0){
         console.log('fizzbuzz ')
     }     
 
 }
+
